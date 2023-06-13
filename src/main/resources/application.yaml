@@ -1,0 +1,13 @@
+server:
+  port: 10012
+
+spring:
+  kafka:
+#    security:
+#      protocol: "SSL"
+    bootstrap-servers:
+
+kafka:
+  backoff:
+    interval: 10
+    max-failure: 10
